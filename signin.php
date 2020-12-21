@@ -1,9 +1,18 @@
 <html>
 <head>
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
 <!------ Include the above in your HEAD tag ---------->
     <style>
     
@@ -13,11 +22,15 @@
 
 html {
   background-color: #56baed;
+ 
 }
 
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  background: url('img/main_banner.jpg') fixed;
+  background-size: cover;
+
 }
 
 a {
@@ -35,6 +48,7 @@ h2 {
   display:inline-block;
   margin: 40px 8px 10px 8px; 
   color: #cccccc;
+  
 }
 
 
@@ -88,11 +102,10 @@ h2.active {
 }
 
 
-
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=submit], input[type=reset]  {
-  background-color: #56baed;
+  background-color: #56baed;   
   border: none;
   color: white;
   padding: 15px 80px;
@@ -283,7 +296,7 @@ input[type=text]:placeholder {
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="img/logo2.jpeg" id="icon" alt="User Icon" />
+      <img src="img/logo.png" id="icon" alt="User Icon" />
     </div>
 
     <!-- Login Form -->

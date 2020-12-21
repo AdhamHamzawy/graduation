@@ -3,50 +3,48 @@
 
 
 <head>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
 <!------ Include the above in your HEAD tag ---------->
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 <style>
     
     
     
     body {
-     background: url('img/doctooor.jpg') fixed;
+    background: url('img/main_banner.jpg') fixed;
     background-size: cover;
-        padding: 100;
+        
 }
 
 *[role="form"] {
+    
     max-width: 530px;
-    padding: 15px;
+    padding: 15;
+    padding-bottom:50;
     margin: 0 auto;
     border-radius: 0.3em;
     background-color: white;
 }
 
 *[role="form"] h2 { 
+    
     font-family: 'Open Sans' , sans-serif;
     font-size: 40px;
     font-weight: 600;
     color: #000000;
     margin-top: 5%;
+    
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -55,10 +53,10 @@
     .img
     {
         height: 200px;
-        width: 50%;
+        width: 75%;
         align-self: auto;
         padding: 50;
-        padding-left: 100;
+        padding-left: 15;
         margin-left: 100;
         
         
@@ -71,7 +69,35 @@
 
 
 <body>
-    
+<!-- 
+
+Read more: https://html.com/tags/comment-tag/#ixzz6hIqljXBe
+<div class="wrap">
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button id="primary-nav-button" type="button">Menu</button>
+                        <a href="index.html"><div class="logo">
+                            <img src="img/logo.png" alt="Venue Logo">
+                        </div></a>
+                        <nav id="primary-nav" class="dropdown cf">
+                            <ul class="dropdown menu">
+                                <li class='active'><a href="#">SignIn</a></li>
+                                <li class='active'><a href="#">Signup</a></li>
+                              
+                                   
+                                </li>
+                                <li><a class="scrollTo" data-scrollTo="blog" href="#">Blog Entries</a></li>
+                                <li><a class="scrollTo" data-scrollTo="services" href="#">Our Services</a></li>
+                                <li><a class="scrollTo" data-scrollTo="contact" href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div> -->
 <?php
     
    
@@ -115,7 +141,7 @@
     
 <div class="container">
             <form class="form-horizontal" method="post" action="signin.php" role="form">
-                <img src="img/logo2.jpeg" class="img"><h3 style="font-weight: bold;     padding-bottom: 50;
+                <img src="img/logo.png" class="img"><h3 style="font-weight: bold;     padding-bottom: 25;
     padding-left: 60;
 align-content: center; margin-left:150;">Sign up</h3>
                 <div class="form-group">
@@ -159,7 +185,7 @@ align-content: center; margin-left:150;">Sign up</h3>
                     <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
                     <div class="col-sm-9">
                         <input type="phoneNumber" name="phone" id="phoneNumber" placeholder="Phone number" class="form-control">
-                        <span class="help-block">Your phone number won't be disclosed anywhere </span>
+                        <span class="help-block"></span>
                     </div>
                 </div>
                 
@@ -183,19 +209,12 @@ align-content: center; margin-left:150;">Sign up</h3>
                 </div> <!-- /.form-group -->
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">
-                        <span class="help-block">*Required fields</span>
+                        <span class="help-block"></span>
                     </div>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
                 <button type="reset" class="btn btn-primary btn-block">Reset</button>
                 
-
-                 
-                <h3>Password must contain the following:</h3>
-  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
-  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
-  <p id="number" class="invalid">A <b>number</b></p>
-  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
                 </form>		
 </div>
     

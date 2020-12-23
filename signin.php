@@ -27,29 +27,11 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   background: url('img/main_banner.jpg') fixed;
   background-size: cover;
 
 }
 
-a {
-  color: #92badd;
-  display:inline-block;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-h2 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  display:inline-block;
-  margin: 40px 8px 10px 8px; 
-  color: #cccccc;
-  
-}
 
 
 
@@ -69,7 +51,6 @@ h2 {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  padding: 30px;
   width: 90%;
   max-width: 450px;
   position: relative;
@@ -290,6 +271,10 @@ input[type=text]:placeholder {
 </head>
     
     <body>
+
+  <?php
+  include "menu.php";
+  ?>
 <div class="wrapper fadeInDown">
   <div id="formContent">
     <!-- Tabs Titles -->
@@ -313,5 +298,8 @@ input[type=text]:placeholder {
 
   </div>
 </div>
+<?php
+include "footer.php";
+?>
         </body>
     </html>

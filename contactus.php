@@ -19,9 +19,12 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
       <style>
           
-
+        body{
+          background-color: #F2F2F2;
+        }
           h2.inactive {
   color: #cccccc;
+ 
 }
 
       </style>

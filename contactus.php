@@ -20,8 +20,12 @@
       <style>
           
 
+        body{
+          background-color: #F2F2F2;
+        }
           h2.inactive {
   color: #cccccc;
+ 
 }
 
       </style>

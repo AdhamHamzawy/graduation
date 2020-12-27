@@ -15,14 +15,14 @@
 
 	<title>Profile page</title>
     <?php
-        include "menu2.php";
+        include "menu.php";
 
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
 body {font-family: "Lato", sans-serif;
-                
+
 
 }
 
@@ -33,7 +33,7 @@ body {font-family: "Lato", sans-serif;
   background-color: #white;
   width: 10%;
   height: 400px;
-  
+
 }
 
 /* Style the buttons inside the tab */
@@ -42,7 +42,7 @@ body {font-family: "Lato", sans-serif;
   background-color: inherit;
   color: black;
   padding: 22px 16px;
-  
+
   width: 100%;
   border: none;
   outline: none;
@@ -89,32 +89,32 @@ body {font-family: "Lato", sans-serif;
     <div class="row">
         <div class="col-md-3">
             <img src="//placehold.it/200" alt="">
-        </div>    
+        </div>
         <div class="col-md-7">
             <form action="" method="post">
                 <div class="row">
                     <div class="col-md-2">Firstname:</div>
-                        <div class="col-md-4"><input type="text" name="FN"></div> 
+                        <div class="col-md-4"><input type="text" name="FN"></div>
                         <div class="col-md-2">Lastname:</div>
-                        <div class="col-md-4"><input type="text" name="LN"></div> 
+                        <div class="col-md-4"><input type="text" name="LN"></div>
                 </div>
                 <br>
                 <div class="row">
                         <div class="col-md-2">Email:</div>
-                        <div class="col-md-4"><input type="text" name="Email"></div> 
+                        <div class="col-md-4"><input type="text" name="Email"></div>
                         <div class="col-md-2">Password:</div>
-                        <div class="col-md-4"><input type="Password" name="Password"></div> 
-                </div>    
+                        <div class="col-md-4"><input type="Password" name="Password"></div>
+                </div>
                 <br>
                 <div class="row">
                         <div class="col-md-2">Age:</div>
-                        <div class="col-md-4"><input type = "text" name = "Age"></div> 
-                        
+                        <div class="col-md-4"><input type = "text" name = "Age"></div>
+
                 </div>
                 <br>
                 <input type="submit" value="Submit" name="Submit">
             </form>
-        </div>    
+        </div>
     </div>
 
     <br>
@@ -124,9 +124,9 @@ body {font-family: "Lato", sans-serif;
 
 <form action="/action_page.php">
   <input type="file" id="myFile" name="filename">
- 
+
   </form>
-        </div>    
+        </div>
     </div>
 
 </div>
@@ -137,27 +137,27 @@ body {font-family: "Lato", sans-serif;
             <form action="" method="post">
                 <div class="row">
                     <div class="col-md-2">Street1:</div>
-                        <div class="col-md-4"><input type="text" name="FN"></div> 
+                        <div class="col-md-4"><input type="text" name="FN"></div>
                         <div class="col-md-2">HomeNumber:</div>
-                        <div class="col-md-4"><input type="text" name="LN"></div> 
+                        <div class="col-md-4"><input type="text" name="LN"></div>
                 </div>
                 <br>
                 <div class="row">
                         <div class="col-md-2">Zip code:</div>
-                        <div class="col-md-4"><input type="text" name="Email"></div> 
+                        <div class="col-md-4"><input type="text" name="Email"></div>
                         <div class="col-md-2">Phone Number:</div>
-                        <div class="col-md-4"><input type="Password" name="Password"></div> 
-                </div>    
+                        <div class="col-md-4"><input type="Password" name="Password"></div>
+                </div>
                 <br>
                 <div class="row">
                         <div class="col-md-2">Landmark</div>
-                        <div class="col-md-4"><input type = "text" name = "Age"></div> 
-                        
+                        <div class="col-md-4"><input type = "text" name = "Age"></div>
+
                 </div>
                 <br>
                 <input type="submit" value="Submit" name="Submit">
             </form>
-        </div>  
+        </div>
 </div>
 
 
